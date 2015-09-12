@@ -61,11 +61,11 @@ Theme Styles
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   width: 189px;
   height: 300px;
+  font-size:12px;
 }
 
 .widget-container .header {
   color: #222;
-  font-weight: bold;
   height: 30px;
   border-bottom: solid 1px #ccc;
 
