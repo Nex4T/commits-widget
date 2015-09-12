@@ -43,7 +43,7 @@ $(function(){
           }
           $right = $('<div class="right"></div>').appendTo( $li );
           $('<span class="commit-message"><a href="https://github.com/' + params.owner + '/' + params.repo + '/commit/' + commit.sha + '" target="_blank">' + commit.commit.message + '</a></span><br/>').appendTo( $right );
-          $('<span class="commit-meta">by <span class="committer-name">' + commit.commit.author.name + '</span> <span class="commit-time">' + $.timeago(commit.commit.committer.date) + '</span></span>').appendTo( $right );
+          $('<span class="commit-meta">by <span class="committer-name">' + commit.commit.author.name + '</span> - <span class="commit-time">' + $.timeago(commit.commit.committer.date) + '</span></span>').appendTo( $right );
           $('<div class="clearfix"></div>').appendTo( $li );
         } else {
           // Render nothing.  Or render a message:
