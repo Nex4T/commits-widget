@@ -142,3 +142,25 @@ Theme Styles
 .widget-container a:hover {
   text-decoration: underline;
 }
+
+.left_main_navi .left-menu-body, .right_main_navi .right-menu-body {
+    background-image: url("http://www.ilch.de/include/designs/ilch2012/img/menu_spacer.png");
+    background-repeat: repeat-y;
+    padding: 6px 1px 6px 3px;
+}
+
+.left_main_navi .left-menu-top, .left_main_navi .left-menu-bottom, .right_main_navi .right-menu-top, .right_main_navi .right-menu-bottom {
+    background-image: url("http://www.ilch.de/include/designs/ilch2012/img/menu_sprite.png");
+    background-position: left top;
+    background-repeat: no-repeat;
+    height: 9px;
+    width: 203px;
+}
+
+.left_main_navi .left-menu-top, .left_main_navi .left-menu-bottom, .right_main_navi .right-menu-top, .right_main_navi .right-menu-bottom {
+    background-image: url("http://www.ilch.de/include/designs/ilch2012/menu_sprite.png");
+    background-position: left top;
+    background-repeat: no-repeat;
+    height: 9px;
+    width: 203px;
+}
